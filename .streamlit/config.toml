@@ -1,0 +1,5 @@
+# Streamlit settings for this project.
+[client]
+# "viewer" hides the Deploy button and the developer menu, so the page looks like a finished app.
+# Change it to "developer" while working on the code.
+toolbarMode = "viewer"
