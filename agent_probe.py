@@ -1,9 +1,5 @@
 """Ask the real Gemini agent one question from the command line and print everything that
 happened, so a problem can be reproduced without typing in the chat loop.
-
-Usage:
-    py agent_probe.py "can we do mohandseen + dokki, giza, egypt?"
-    py agent_probe.py                     (uses a short default question)
 """
 import sys
 

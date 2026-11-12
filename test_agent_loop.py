@@ -2,8 +2,6 @@
 
 It pretends to be a chat model that keeps asking for a tool and never stops, which is the case
 that used to return no text. The loop must cap the rounds and always end with a written answer.
-
-Run it with:  py test_agent_loop.py
 """
 import json
 

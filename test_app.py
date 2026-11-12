@@ -2,8 +2,6 @@
 browser and without an API call: the saved Berlin files in data/ are loaded, the "Plan and draw"
 button is pressed, and the numbers are compared with the README.
 
-Run it with:  py test_app.py
-It needs the Streamlit package (see requirements.txt) and the Phase 1 and 2 files in data/.
 """
 from streamlit.testing.v1 import AppTest
 

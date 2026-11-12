@@ -1,5 +1,4 @@
-"""Build an AreaPlanner for any place: look up the name, download OpenStreetMap buildings and
-roads, cut the area into 100 m squares (same method as Phases 1 and 2) and cache the result."""
+
 import json
 import os
 import re

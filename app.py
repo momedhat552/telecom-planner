@@ -3,8 +3,6 @@
 Pick a study area (name or coordinates), plan a network and look at the picture and the numbers,
 then ask the Gemini assistant questions about the same area.
 
-Run it with:  streamlit run app.py
-It opens in your browser (http://localhost:8501). Stop it with Ctrl+C in the terminal.
 """
 import os
 

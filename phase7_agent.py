@@ -5,8 +5,6 @@ result in words. The tool loop is written out here instead of using the automati
 of the google-genai library, so we always know which tool was called, we can stop after a fixed
 number of rounds, and we can never end up with a tool request that silently never runs.
 
-Run it with:  py phase7_agent.py
-It needs GEMINI_API_KEY in your .env file (and optionally GEMINI_MODEL).
 """
 import os
 import re
