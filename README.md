@@ -294,13 +294,9 @@ are copied to `images/`.
 
 ## Next steps
 
-- Deploy the app (for example Streamlit Community Cloud) and test it there: the first Berlin load
-  downloads the same 3 x 3 km square from OpenStreetMap because `data/` is not committed, and the
-  `GEMINI_API_KEY` goes in the app secrets.
-- Make the working area per browser session before a public deployment: the tools keep one area in
-  a module variable, which is fine for one user but not for many users in one server process.
 - Read a map picture uploaded by the user (buildings by colour, width in km), and check it against
   the OpenStreetMap grid on Berlin.
 - Compare planned sites with real tower locations (for example OpenCelliD) and calibrate the path loss if
   measurements are available.
 - Detect buildings from satellite images for areas where OpenStreetMap data is poor.
+- Check the possibility of migrating to Mapy API instead of OpenStreetMap
